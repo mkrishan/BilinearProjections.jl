@@ -1,0 +1,24 @@
+name: New constraint family
+description: Propose another bilinear or quadratic projection operator
+title: "[Projector]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: set
+    attributes:
+      label: Set and metric
+      description: Give the exact mathematical definition of the constraint set and projection metric.
+    validations:
+      required: true
+  - type: textarea
+    id: formula
+    attributes:
+      label: Formula or derivation
+      description: State the known formula, scalar root equation, or proposed derivation.
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Primary reference
+      description: Provide a DOI, preprint, or self-contained proof.

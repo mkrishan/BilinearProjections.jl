@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+title: BilinearProjections.jl
+message: "Please cite this software and the mathematical paper corresponding to the projector you use."
+type: software
+authors:
+  - family-names: "Krishan Lal"
+    given-names: "Manish"
+repository-code: "https://github.com/mkrishan/BilinearProjections.jl"
+url: "https://github.com/mkrishan/BilinearProjections.jl"
+version: 0.1.0
+date-released: 2026-08-07
+license: MIT
+keywords:
+  - projection algorithms
+  - bilinear constraints
+  - hyperbola
+  - hyperbolic paraboloid
+  - nonconvex optimization
+references:
+  - type: article
+    title: "The Projection onto the Cross"
+    authors:
+      - family-names: Bauschke
+        given-names: Heinz H.
+      - family-names: Krishan Lal
+        given-names: Manish
+      - family-names: Wang
+        given-names: Xianfu
+    journal: Set-Valued and Variational Analysis
+    year: 2022
+    volume: 30
+    start: 997
+    end: 1009
+    doi: 10.1007/s11228-022-00630-7
+  - type: article
+    title: "Projections onto hyperbolas or bilinear constraint sets in Hilbert spaces"
+    authors:
+      - family-names: Bauschke
+        given-names: Heinz H.
+      - family-names: Krishan Lal
+        given-names: Manish
+      - family-names: Wang
+        given-names: Xianfu
+    journal: Journal of Global Optimization
+    year: 2023
+    volume: 86
+    start: 25
+    end: 36
+    doi: 10.1007/s10898-022-01247-8
+  - type: article
+    title: "Projecting onto rectangular hyperbolic paraboloids in Hilbert space"
+    authors:
+      - family-names: Bauschke
+        given-names: Heinz H.
+      - family-names: Krishan Lal
+        given-names: Manish
+      - family-names: Wang
+        given-names: Xianfu
+    journal: Applied Set-Valued Analysis and Optimization
+    year: 2023
+    volume: 5
+    start: 163
+    end: 180
+    doi: 10.23952/asvao.5.2023.2.04

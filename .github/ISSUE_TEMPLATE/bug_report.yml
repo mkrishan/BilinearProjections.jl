@@ -1,0 +1,30 @@
+name: Bug report
+description: Report an incorrect result, numerical failure, or API problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened, and what result was expected?
+    validations:
+      required: true
+  - type: textarea
+    id: reproducer
+    attributes:
+      label: Minimal Julia reproducer
+      render: julia
+    validations:
+      required: true
+  - type: input
+    id: julia
+    attributes:
+      label: Julia version
+    validations:
+      required: true
+  - type: textarea
+    id: metadata
+    attributes:
+      label: ProjectionInfo and residuals
+      description: Include branch, multiplier, feasibility residual, and stationarity residual when available.
